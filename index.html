@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo 1</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container" id="con">
+        <div class="addlist">
+            <div class="left1">
+                <p class="first-text c1">Tasks</p>
+                <p class="first-text1 c1">List</p>
+            </div>
+
+
+            <div class="right1">
+                <a href="#"id="bb1" onclick="toggle(this.id)" id="addPopup" class="c1 c2"><i class="fa fa-plus c3"></i></a>
+                <p class="additem-text c1">Add Item</p>
+            </div>
+
+
+        </div>
+        <div id="grid1">
+        </div>
+    </div>
+
+
+
+    
+        <div id="con1" class="additems">
+            <div class="pp">Add New List</div>
+            <div class="pp">
+                <input type="text" id="addtext">
+            </div>
+            <div class="pp" id="pp1">
+                <a href="#" id="addbtn1" onclick="inputTextFun()">Add</a>
+                <!-- <a href="#" id="addbtn" >Add</a> -->
+                <a href="#" id="closebtn" onclick="toggle1()">Close</a>
+            </div>
+        </div>
+    
+
+
+
+    <div id="cardonly-con">
+
+        <div id="container-heading">
+            <div id="heading1">
+                <a href="" >
+                    <i class="fa fa-angle-left c5"></i>
+                    Back
+                </a>
+            </div>
+            <div id="heading2">
+
+            </div>
+            <div id="heading3">
+                <a href="#" id="addPopup" class="c1 c2"><i class="fa fa-plus c3"></i></a>
+            </div>
+        </div>
+
+        <div id="cardonly"></div>
+    </div>
+
+    <script src="./index1.js"></script>
+</body>
+
+</html>

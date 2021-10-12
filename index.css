@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    height: 100vh;
+    width: 70%;
+    /* background-color: aqua; */
+    margin: auto;
+    position: relative;
+    margin-top: 50px;
+}
+
+/* first line*/
+
+.addlist{
+    display: flex;
+    /*background-color: red;*/
+    margin: 10px;
+}
+.left1{
+    width: 50px;
+    display: flex;
+}
+.right1{
+    width: 180px;
+    margin-left: auto;
+    display: flex;
+}
+.c1{
+    margin: 3px;
+    font-size: 30px;
+    color: blanchedalmond;
+}
+.first-text{
+    font-weight: bold;
+    font-size: 35px;
+}
+.first-text1{
+    font-weight: lighter;
+    font-size: 35px;
+}
+.c3{
+    background-color: blue;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    padding-top: 4px;
+    padding-left: 4px;
+
+}
+.c2{
+    color: black;
+    text-decoration: none;
+   
+   
+}
+
+.additems{
+    position: absolute;
+    background-color: #ffebcd;
+    width: 30vw;
+    height: 36wh;
+    margin: auto;
+    padding-top: 4px;
+    font-size: 1.5em;
+    border: 1px solid red;
+    border-radius: 8px;
+    top: 30%;
+    left: 35%;
+}
+.pp{
+    width: 60%;
+    margin: auto;
+    margin:  12px auto;
+    color: red;
+    text-align: center;
+}
+#addtext{
+    border: 1px solid red;
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+}
+ .pp a{
+    color: white;
+    background-color: rgb(231, 21, 21);
+    border: 0;
+    margin: 0 5px;
+    height: 35px;
+    width: 78px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 14px;
+    text-decoration: none;
+}
+.card{
+   min-width: 220px;
+   min-height: 50px; 
+   border: 1px solid red;
+   margin: 20px;
+   background-color: azure;
+   position: relative;
+   border-radius: 7px;
+    
+}
+#grid1{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.para{
+    text-align: center;
+    margin: 3%;
+    cursor: pointer;
+}
+.c4{
+    font-size: 20px;
+    color: red;
+    padding: 5%;
+}
+.addDelete{
+    
+    width: 37%;
+    margin-left: 76%;
+     margin-top: 65%;
+     padding-bottom: 5px;  
+    
+}
+#cardonly{
+   
+    width: 247px;
+    height: 240px; 
+    margin: auto;
+}
+#heading2{
+    color: whitesmoke;
+    font-size: 37px;
+}
+#heading1 a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 37px;
+
+}
+#container-heading{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5% 15%;
+    
+}
+#cardonly-con{
+   
+    width: 70%;
+   
+    margin: auto;
+    position: relative;
+    margin-top: 50px;
+}
+.c5{
+    color: black;
+    background-color: whitesmoke;
+    margin-left:3px;
+    padding: 2px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.txt1{
+    font-size: 19px;
+    font-weight: 500;
+    padding: 10px;
+}
+.txt2{
+    
+    color: white;
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 9px;
+    font-weight: lighter;
+    background-color: rgb(51, 131, 131);
+}
+.para1{
+    color: rgb(165, 40, 40);
+    padding: 10px;
+    
+}
+@media screen and (max-width:766px) {
+    .addlist{
+        display: block;
+        margin: 0px 30px;
+        padding: 4px;
+    }
+    .left1{
+        margin-left: 0px;
+        
+    }
+    .card{
+        min-height: 60px;
+    }
+    .right1{
+        margin: 0px;
+    }
+    .card-block{
+        display: none;
+    }
+    .additems{
+        width: 64%;
+        left: 20%;
+    }
+}
